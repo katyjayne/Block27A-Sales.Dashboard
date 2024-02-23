@@ -10,8 +10,11 @@ export default function Revenue() {
 
   return (
     <>
-    <h4>Total Revenue: ${totalRevenue}</h4> 
-    <h4> Average Cost: + ${averageCost}</h4>
+    <div className="revenue">
+      <h2>Revenue</h2>
+      <h4>Total Revenue: ${totalRevenue}</h4> 
+      <h4>Average Cost: ${averageCost}</h4>
+    </div>
     </>
   )
   

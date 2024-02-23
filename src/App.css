@@ -9,6 +9,7 @@
 }
 
 .login {
+  text-decoration: underline;
   border: 2px solid black;
   text-align: center;
   margin: 10px;
@@ -20,4 +21,28 @@
 
 button {
   text-align: center;
+}
+
+.transactions {
+  border: 5px solid black;
+  text-align: left;
+  margin: 10px;
+  padding: 15px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.revenue {
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  max-width: fit-content;
+  max-height: min-content;
+}
+
+.box-heading {
+  text-decoration: underline;
 }

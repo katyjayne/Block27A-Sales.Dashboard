@@ -1,19 +1,17 @@
 import './App.css';
 import Heading from './components/Heading';
 import Dashboard from './components/Dashboard';
-import Login from './components/Login';
-import Transactions from './components/Transactions';
 import Revenue from './components/Revenue';
+import Sidebar from './components/Sidebar';
 
 
 function App() {
   return (
     <>
       <Heading />
+      <Sidebar />
       <Revenue />
-      <Login />
       <Dashboard />
-      <Transactions />
     </>
   );
 }
