@@ -1,0 +1,23 @@
+#root {
+  background-color: rgb(235, 208, 245);
+  border: 10px double black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.login {
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  max-width: fit-content;
+  max-height: min-content;
+  
+}
+
+button {
+  text-align: center;
+}
