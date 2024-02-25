@@ -46,3 +46,7 @@ h2 {
 .box-heading {
   text-decoration: underline;
 }
+
+h1 {
+  text-align: left;
+}
